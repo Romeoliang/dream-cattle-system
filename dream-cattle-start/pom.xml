@@ -11,5 +11,26 @@
 
     <artifactId>dream-cattle-start</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.cattle.dream</groupId>
+            <artifactId>dream-cattle-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cattle.dream</groupId>
+            <artifactId>dream-cattle-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cattle.dream</groupId>
+            <artifactId>dream-cattle-domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cattle.dream</groupId>
+            <artifactId>dream-cattle-infrastructure</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
