@@ -5,7 +5,7 @@
     <parent>
         <artifactId>dream</artifactId>
         <groupId>com.cattle.dream</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -15,22 +15,24 @@
         <dependency>
             <groupId>com.cattle.dream</groupId>
             <artifactId>dream-cattle-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.cattle.dream</groupId>
             <artifactId>dream-cattle-core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.cattle.dream</groupId>
             <artifactId>dream-cattle-domain</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.cattle.dream</groupId>
             <artifactId>dream-cattle-infrastructure</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
     </dependencies>
 </project>

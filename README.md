@@ -5,14 +5,16 @@
 整体框架使用DDD(领域驱动设计)架构搭建
 以springboot为技术架构，集成其他第三方jar包进行开发
 
-1. 数据库mysql  持久层框架: mybatis-plus
+1.  数据库mysql  持久层框架: mybatis-plus
 2.  excel导入导出: EasyExcel
 3.  消息队列: kafka,rocketMQ
-4.  任务调度管理: 使用xx-job (分布式搭建)
-5.  上传使用阿里的OSS
-6.  使用dubbo进行服务提供(后面再使用)
-7.  版本控制git
-8.  项目部署(研究自动化部署)
+4.  缓存功能: redis
+5.  接口测试: swagger-ui
+6.  任务调度管理: 使用xx-job (分布式搭建)
+7.  上传使用阿里的OSS
+8.  使用dubbo进行服务提供(后面再使用)
+9.  版本控制git
+10.  项目部署(研究自动化部署)
 
 ### 登录(使用shiro框架进行权限和登录认证)
 
